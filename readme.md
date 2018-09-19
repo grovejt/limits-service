@@ -149,6 +149,7 @@ spring.cloud.config.failFast=true
 
 ## Complete Code Example
 
+** Note: I'm using gradle intead of maven -jg **
 ### /03.microservices/currency-conversion-service/pom.xml
 
 ```xml
