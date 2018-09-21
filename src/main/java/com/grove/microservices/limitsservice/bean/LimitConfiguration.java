@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.limitsservice.bean;
+package com.grove.microservices.limitsservice.bean;
 
 public class LimitConfiguration {
 
