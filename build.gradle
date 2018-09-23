@@ -33,6 +33,9 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	
 	compile('org.springframework.cloud:spring-cloud-starter-config')
+	// get config changes from spring cloud bus through rabbitMq: 
+	compile('org.springframework.cloud:spring-cloud-starter-bus-amqp')
+	
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
 	
 	// enable distributed tracing:
